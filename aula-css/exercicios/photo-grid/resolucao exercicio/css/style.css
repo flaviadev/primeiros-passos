@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    background-color: lightpink;
+    
+}
+
+header{
+    width: 100%;
+    height: auto;
+    background-color: lightpink;
+    margin-bottom: 60px;
+}
+
+#topo{
+    width: 80%;
+    height: auto;
+}
+
+#login{
+    width: 10%;
+    height: auto;
+    float: left;
+}
+
+#login img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-left: 140px;
+}
+
+#titulo {
+    width: 70%;
+    height: auto;
+    float: left;
+    margin-top: 48px;
+    text-align: left;
+    margin-left: 160px;
+}
+
+#titulo h1 {
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #333333;
+    margin:0 10px;
+} 
+
+#titulo h2 {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #333333;
+    margin:10px 10px;
+}
+
+/*---------------------------------------------- main ------------------------------------------------*/
+
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
+  
+  .card {
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    margin: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card p {
+    font-size: 16px;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 80%;
+  }
+
+  #footer{
+      margin-top: 60px;
+  }
+
+  /*---------------------------------------------- footer ------------------------------------------------*/
+
+  #footer p{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+  }

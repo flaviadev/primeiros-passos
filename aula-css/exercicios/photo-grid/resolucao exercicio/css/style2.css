@@ -1,0 +1,72 @@
+body {
+    background: lightpink;
+}
+
+#titulo h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 36px;
+    margin-top: 40px;
+}
+
+#titulo a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 24px;
+    margin-left: 20%;
+    color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+.card {
+    width: 600px;
+    background: #fff;
+    display: flex;
+}
+
+.descricao {
+    height: 90%;
+    border: 1px solid #000;
+    margin-top: 53px;
+    display: flex;
+}
+
+.descricao p {
+    font-size: 16px;
+    padding-left: 10px;
+    margin-top: 100px;
+}
+
+.card img {
+    width: 100%;
+}
+
+#login {
+    border: 1px solid #000;
+    display: flex;
+    height: 50px;
+}
+
+#login h2 {
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-left: 10px;
+}
+
+#login img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
