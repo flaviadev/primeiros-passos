@@ -4,10 +4,10 @@ programa {
 		real num1, num2, total
 		inteiro op
 		
-		escreva("Informe o 1� numero: ")
+		escreva("Informe o 1o numero: ")
 		leia(num1)
 		
-		escreva("Informe o 2� numero: ")
+		escreva("Informe o 2o numero: ")
 		leia(num2)
 		
 		escreva("1 - Adicao: ")
@@ -37,7 +37,14 @@ programa {
 		  caso contrario:
 		  escreva("Ops! Esta opcao e invalida.")
 		  pare
-	}
-}
 
-}
+		  //adicione uma opção para encerrar o programa, com uma pergunta. Exemplo: “Deseja continuar? S/N”.  
+   }
+
+    	escreva ("Deseja continuar?[S/N]")
+   		leia (loop)
+
+   		}enquanto(loop=="s")
+	}
+fimprograma
+}	
